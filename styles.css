@@ -1,0 +1,128 @@
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 0;
+}
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+#logo{
+    height: 20px;
+    width: auto;
+    margin-right: 810px;
+}
+.flextype{
+    flex: auto;
+}
+.header{
+    display: flex;
+    background-color: black;
+    justify-content:center;
+    padding: 30px;
+}
+.right{
+    justify-content: right;
+    align-content: center;
+    word-spacing: 2px;
+}
+.body1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: black;
+    padding: 30px;
+}
+.start{
+    width: 50%;
+    height: auto;
+}
+h1, .body1 p{
+    color:rgb(181, 247, 50);
+}
+button{
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    border: 1px solid white;
+}
+.body1{
+    display:flex;
+    justify-content: center;
+}
+#petpicture{
+    height: 200px;
+    width: auto;
+}
+img{
+    height: 200px;
+    width: 140px;
+}
+.img2{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+.ib2{
+    flex:auto;
+    padding: auto;
+}
+h2{
+    text-align: center;
+}
+.body3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    width: 700px;
+    height:auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0%;
+}
+.outer{
+    background-color: gray;
+    color: azure;
+    padding: 70px;
+}
+.right{
+    margin-top: 0%;
+    display:flex;
+}
+.body4{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    background-color:indianred;
+    padding: 0%;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+}
+.flexible{
+    flex: auto;
+    color: aquamarine;
+}
+.write{
+    padding-left: 40px;
+}
+.footer{
+    background-color: black;
+    color: ghostwhite;
+    margin-top: 20px;
+    text-align: center;
+}
