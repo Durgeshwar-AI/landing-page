@@ -12,16 +12,17 @@
     }
 #logo{
     height: 20px;
-    width: auto;
-    margin-right: 810px;
+    width: auto;    
 }
 .flextype{
     flex: auto;
+
 }
 .header{
     display: flex;
+    justify-content:space-between;
+    flex-direction: row;
     background-color: black;
-    justify-content:center;
     padding: 30px;
 }
 .right{
@@ -63,11 +64,14 @@ button{
 img{
     height: 200px;
     width: 140px;
+    max-width: 100%;
+    height: auto;
 }
 .img2{
     display: flex;
     justify-content:space-between;
     text-align: center;
+    object-fit: contain;
 }
 .ib2{
     flex:auto;
@@ -99,13 +103,12 @@ h2{
 }
 .body4{
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    margin:20px auto auto auto;
     width: 70%;
     height: auto;
     background-color:indianred;
     padding: 0%;
-    margin-left: 200px;
-    margin-top: 40px;
 }
 .button2{
     display: flex;
@@ -118,11 +121,20 @@ h2{
     color: aquamarine;
 }
 .write{
-    padding-left: 40px;
+    padding: 40px 20px 20px 20px;
+    margin-left: 40px;
+    flex:auto;
+    align-content: center;
+    justify-content: center;
 }
 .footer{
     background-color: black;
     color: ghostwhite;
     margin-top: 20px;
     text-align: center;
+}
+.thor{
+    margin: auto;
+    padding: auto;
+    width: 30%;
 }
